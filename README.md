@@ -71,6 +71,6 @@ I have applied the following supervised learning models.
 # Conclusion
 This project has built a model that can detect auto insurance fraud. In doing so, the model can reduce losses for insurance companies. The challenge behind fraud detection in machine learning is that frauds are far less common as compared to legit insurance claims.
 
-Four different classifiers were used in this project: logistic regression, Random forest, Decision tree, Gradient Boosting. Three different ways of handling imbalance classes were tested out with these four classifiers: oversampling with SMOTE, hyper parameter tuning, and plotting roc curve of the models.
+Four different classifiers were used in this project: Logistic regression, Random forest, Decision tree, Gradient Boosting. Three different ways of handling imbalance classes were tested out with these four classifiers: oversampling with SMOTE, hyper parameter tuning, and plotting roc curve of the models.
 
-The best and final fitted model was a weighted Logistic Regression that yelled a F1 score of 76.8 and a ROC AUC of 85.45. The model performed excellent. The model’s F1 score and ROC AUC scores were the highest amongst the other models. In conclusion, the model was able to correctly distinguish between fraud claims and legit claims with high accuracy.
+The best and final fitted model was a weighted <b>Logistic Regression</b> that yelled a <b>F1 score of 76.8</b> and a <b>ROC AUC of 85.45</b>. The model performed excellent. The model’s F1 score and ROC AUC scores were the highest amongst the other models. In conclusion, the model was able to correctly distinguish between fraud claims and legit claims with high accuracy.
